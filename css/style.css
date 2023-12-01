@@ -1,0 +1,152 @@
+
+
+*{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(213, 187, 88);
+}
+
+body {
+    background-image: url('/images/fone.jpg');
+}
+
+a {
+    text-decoration: none;
+    color:rgb(213, 187, 88) ;
+}
+
+
+/*
+ Header
+ */
+
+
+header {
+    background: #2443A98E;
+    height: 70px;
+}
+
+header h1 {
+    margin-top: 12px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 24px;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    position: relative;
+}
+
+header ul li a {
+    display: block;
+    font-size: 1.4rem;
+    padding: 18px;
+}
+
+header ul li a:hover {
+    background: #2443A98E;
+    transition: 0.5s;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+
+header ul li ul  {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 180px;
+    display: none;
+    z-index: 111;
+
+
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+header ul li ul li {
+    width: 100%;
+}
+header ul li ul li a {
+    padding: 10px;
+    background: rgba(213, 187, 88, 0.4);
+    color: #2443A98E;
+}
+
+header ul li ul li a:hover {
+    background:rgb(213, 187, 88) ;
+}
+
+
+/*
+
+Карусель
+
+*/
+
+
+.slider-title {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color:#2443A98E;
+    font-weight: bold;
+}
+
+.slider-title span {
+    display: inline;
+    font-size: 40px;
+    background: rgba(213, 187, 88, 0.38);
+    padding: 0 10px; /* Добавьте отступы для управления шириной фона */
+}
+
+
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.carousel img {
+    width: 100%;
+    height: 700px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-caption h5 {
+    padding: 15px;
+    background: rgba(36, 100, 169, 0.56);
+
+}
+
+.carousel-caption h5:hover {
+
+    text-decoration: underline;
+
+
+}
+
